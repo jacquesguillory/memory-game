@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Sidney Crosby",
+        "image": "http://assets.nydailynews.com/polopoly_fs/1.2044909.1418577877!/img/httpImage/image.jpg_gen/derivatives/article_750/459051584.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Patrick Kane",
+        "image": "http://www.hockeyworldblog.com/wp-content/uploads/2015/08/patrick_kane_2013_03_26.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Connor McDavid",
+        "image": "http://www.mercurynews.com/wp-content/uploads/2017/04/connor-mcdavid-21.jpg?w=620"
+    },
+    {
+        "id": 4,
+        "name": "Evgeni Malkin",
+        "image": "https://s.yimg.com/uu/api/res/1.2/DxCe4rJT5RFyCL2Q9eyg8Q--~B/aD0zMzc7dz01OTk7c209MTthcHBpZD15dGFjaHlvbg--/http://l.yimg.com/os/publish-images/sports/2015-09-30/58b4f1b0-670c-11e5-ace9-df72a5f85a26_CQG5ireUAAAmwlo.jpg"
+    },
+    {
+        "id": 5,
+        "name": "P.K. Subban",
+        "image": "https://cdn-s3.si.com/images/PK-Subban-Nashville-Predators.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Brad Marchand",
+        "image": "https://c.o0bg.com/rf/image_1200w/Boston/2011-2020/2017/01/27/BostonGlobe.com/Sports/Images/tlumacki_bruinsvspenguins_sports524.jpg?uuid=Y2p_TAj8EeeyiuQhiEUDhQ"
+    },
+    {
+        "id": 7,
+        "name": "Marc-Andre Fleury",
+        "image": "https://www.pittsburghsportsreport.com/PSR/sites/default/files/Marc-Andre%20Fleury.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Auston Matthews",
+        "image": "https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Ftipofthetower.com%2Ffiles%2F2017%2F01%2F9782822-nhl-centennial-classic-detroit-red-wings-toronto-maple-leafs.jpg&c=sc&w=850&h=560"
+    },
+    {
+        "id": 9,
+        "name": "Phil Kessel",
+        "image": "http://assets4.sportsnet.ca/wp-content/uploads/2017/08/phil-kessel-hot-dogs.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Henrik Lundqvist",
+        "image": "http://lh5.ggpht.com/_D8BZkQWHpxE/TMusVY5Q11I/AAAAAAAADxM/oRxvVqcUBtY/s800/Henrik%2BLundqvist%2BCarolina%2BHurricanes%2Bv%2BNew%2BWbLKOL39j8hl.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Tyler Seguin",
+        "image": "https://d13csqd2kn0ewr.cloudfront.net/uploads/image/file/86227/cropped_USPW_429968.jpg?ts=1417815777"
+    },
+    {
+        "id": 12,
+        "name": "Joe Thornton",
+        "image": "http://beardresource.com/wp-content/uploads/2016/07/joe-thornton-beard-nhl-playoffs.jpg"
+    }
+]
