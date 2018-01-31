@@ -11,9 +11,11 @@ class App extends Component {
   state = {
     cards,
     score: 0,
-    max: 0
+    max: 0,
+    compareArray:[]
   };
 
+  // shuffle card function
   shuffleCards = () => {
     console.log("communicating");
     let counter = this.state.cards.length;
@@ -43,6 +45,48 @@ class App extends Component {
 
   };
 
+  // card checking function
+  cardCheck = (props) => {
+    let compareArray = [...this.state.compareArray];
+    // let i; //don't know why i have to define i here but got error otherwise
+    let found = false;
+    for (let i = 0; i < this.state.compareArray.length; i++){
+      if (props.id === compareArray[i]){
+       found = true;
+       break;
+      }
+    }
+
+    // if repeat card is clicked, reset score after checking max value
+    if(found) {
+      alert("You picked the same card twice!  Try to click all 12 cards without any repeats.");
+
+      if(this.state.score > this.state.max) {
+        this.setState({max: this.state.score});
+      }
+
+      this.setState({score: 0});
+      this.setState({compareArray: []});
+    }
+
+    // if unique card found, push card id to the compareArray and increase current score by 1
+    if (!found) {
+      compareArray.push(props.id);
+      this.setState({score: this.state.score + 1});
+      this.setState({compareArray});
+
+      // fixing statefulness with this trick
+      let scoreCheck = this.state.score + 1;
+      // congratulate them if the get the max score and reset everything except max
+      if(scoreCheck === 12){
+        alert("Great job! You correctly picked all 12 cards in a row. Keep practicing to keep your short term memory sharp!");
+        this.setState({score: 0});
+        this.setState({compareArray: []});
+        this.setState({max: 12});
+      }
+    }
+  };
+
   render() {
     return (
     <div>
@@ -59,6 +103,7 @@ class App extends Component {
       />
       </Header>
 
+
       <Wrapper>
 
           {this.state.cards.map(card => (
@@ -67,6 +112,7 @@ class App extends Component {
               name={card.name}
               image={card.image}
               shuffleCards={this.shuffleCards}
+              cardCheck={this.cardCheck}
             />
           ))}
       </Wrapper>

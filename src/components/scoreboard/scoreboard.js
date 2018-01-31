@@ -3,8 +3,8 @@ import "./scoreboard.css";
 
 const Scoreboard = props => (
     <div className="scoreboard">
-        <p>Score: {props.score}</p>
-        <p>Highest Score: {props.max}</p>
+        <p>Current Score: {props.score}</p>
+        <p>Best Score: {props.max}</p>
     </div>
 );
 
